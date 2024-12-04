@@ -24,7 +24,7 @@
 		<!--this the navigation-->
 		<nav>
 			<ul>
-			 <li><a href="mainpage.html">Home</a></li>
+			 <li><a href="index.html">Home</a></li>
 			 <li><a href="calendarpage.html" class="active">Calendar</a></li>
 			 <li><a href="signup.html">Sign-Up</a></li>
 			</ul>
@@ -54,7 +54,7 @@
 			<td>4</td>
 			<td>5</td>
 			<td>6</td>
-			<td><img src="assets/star.png" alt="logo" width="10" height="10"><a href="mainpage.html" target="_blank">First Event!</a> 7<img src="assets/star.png" alt="logo" width="10" height="10"></td>
+			<td><img src="assets/star.png" alt="logo" width="10" height="10"><a href="index.html" target="_blank">First Event!</a> 7<img src="assets/star.png" alt="logo" width="10" height="10"></td>
 		 </tr>
 		 <tr>
 			<td>8</td>
@@ -81,7 +81,7 @@
 			<td>25</td>
 			<td>26</td>
 			<td>27</td>
-			<td><img src="assets/star.png" alt="logo" width="10" height="10"><a href="mainpage.html" target="_blank">Last Event!</a> 28<img src="assets/star.png" alt="logo" width="10" height="10"></td>
+			<td><img src="assets/star.png" alt="logo" width="10" height="10"><a href="index.html" target="_blank">Last Event!</a> 28<img src="assets/star.png" alt="logo" width="10" height="10"></td>
 		 </tr>
 		</table>
 	</main>
