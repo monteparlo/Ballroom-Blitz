@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang=en>
+	<head>
+		<!--meta information-->
+		<meta charset="UTF-8">
+		<meta name="Ballroom Blitz!" content="70s party for all ages.">
+		<!--this shows in the tab-->
+		<title>Ballroom Blitz!</title>
+		<script src="js/funscript.js"></script>
+		<link rel="stylesheet" href="stylesheets/mainstyle.css">
+	</head>
+  <body>
+	<header>
+		<img src="assets/logoglow.png" alt="logo" width="973" height="383">
+		<h1><img src="assets/star2.png" alt="logo" width="60" height="60">FUN IN THE 70s<img src="assets/star2.png" alt="logo" width="60" height="60"></h1>
+	</header>
+	
+		<!--this the navigation-->
+	<nav>
+		<ul>
+			<li><a href="mainpage.html" class="active">Home</a></li>
+			<li><a href="calendarpage.html">Calendar</a></li>
+			<li><a href="signup.html">Sign-Up</a></li>
+		</ul>
+	</nav>
+	
+	<main>
+	<!--main text-->
+		<h2><strong>Come rock out to 70s classic rock and disco!</strong></h2>
+		<br>
+			 <!-- boxes -->
+		 <div class="box-container">
+            <div class="box" style="background-image: url('assets/home1.png');">
+                <div class="box-content">
+                    <!-- Your text here -->
+                    Featuring music from <em>David Bowie, T. Rex, Queen, Roxy Music,</em> and <strong>more.</strong>
+                </div>
+            </div>
+            <div class="box" style="background-image: url('assets/home2.png');">
+                <div class="box-content">
+                    <!-- Your text here -->
+                    Dress in 70's glitter or rock attire for a chance to win our Glamorous Costume Contest.
+                </div>
+            </div>
+            <div class="box" style="background-image: url('assets/home3.png');">
+                <div class="box-content">
+                    <!-- Your text here -->
+                    We will also have Retro Photo Booth, LED Dance Floor with a gigantic disco ball, 70's props, and other surprises that you don't want to miss!
+                </div>
+            </div>
+        </div>
+		<br>
+		<h3>So dust off your platforms, unleash your inner rock god or goddess, and get ready to strut your stuff on the dance floor as we take a glamorous journey back to the 70s!</h3>
+	</main>
+ <footer>
+    &copy; <em>2024</em> Created by Monica Paultre. <a href="mailto:paulmj1@mail.broward.edu">paulmj1@mail.broward.edu</a>
+</footer>
+	
+ </body>
+</html>

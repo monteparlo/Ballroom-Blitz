@@ -1,0 +1,33 @@
+/* I had the mobile edits already incorporated into the CSS sheets so here are the elements copied here*/
+
+/* Nav Padding */
+@media (max-width: 1100px) {
+    nav ul li a {
+        padding: 15px 100px;
+		display: inline-block;
+    }
+}
+
+
+@media (max-width: 999px) {
+    nav ul li a {
+        padding: 15px 50px;
+		display: inline-block;
+    }
+}
+
+@media (max-width: 800px) {
+    nav ul li a {
+        padding: 15px 10px;
+		display: inline-block;
+    }
+	header h1 {
+    letter-spacing: 5px;
+	}
+	header h1 img {
+    vertical-align: text-bottom; /* Align the images to the bottom of the text */
+    margin-bottom: -10px; /* Adjust the margin to fine-tune the positioning */
+	margin-left: -5px;
+	justify-content: center;
+}
+}

@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang=en>
+	<head>
+		<!--meta information-->
+		<meta charset="UTF-8">
+		<meta name="Ballroom Blitz!" content="70s party for all ages.">
+		<!--this shows in the tab-->
+		<title>Ballroom Blitz!</title>
+		<link rel="stylesheet" href="stylesheets/mainstyle.css">
+	</head>
+	<body>
+	<header>
+		<img src="assets/logoglow.png" alt="logo" width="973" height="383">
+		<h1><img src="assets/star2.png" alt="logo" width="60" height="60">FUN IN THE 70s!<img src="assets/star2.png" alt="logo" width="60" height="60"></h1>
+	</header>
+		<!--this the navigation-->
+	<nav>
+		<ul>
+			<li><a href="mainpage.html">Home</a></li>
+			<li><a href="calendarpage.html">Calendar</a></li>
+			<li><a href="signup.html" class="active">Sign-Up</a></li>
+		</ul>
+	</nav>
+	<main>
+	<!--this the sign up form-->
+	<section>
+        <h2>SIGN UP HERE!</h2>
+		<br>
+        <p>We are <strong>super</strong> excited for you to join us at the <em>Ballroom Blitz</em>!<br>
+		 <blockquote><b>"Oh it's such a perfect day. I'm glad I spent it with you."</b> <cite>Lou Reed, "Perfect Day," 1972</cite></blockquote>
+        <p>Fill out the form below to attend!</p>
+        <br>
+		
+        <!-- Form for user to fill out -->
+		
+        <form action="/submit" method="post">
+		
+            <fieldset>
+                <legend><b>Account Information</b></legend>
+				<label for="email">Email:</label>
+                <input type="text" id="email" name="email" required><br>
+                <label for="username">Username:</label>
+                <input type="text" id="username" name="username" required><br>
+                <label for="password">Password:</label>
+                <input type="password" id="password" name="password" required>
+            </fieldset>
+		
+		
+			<fieldset><legend><b>Personal Information</b></legend>
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required><br>
+                <label for="major">Major:</label>
+                <input type="text" id="major" name="major" required><br>
+                <label for="degree">Degree:</label>
+                <input type="text" id="degree" name="degree" required><br>
+                <label for="event_date">Select Event Date:</label>
+                <select id="event_date" name="event_date">
+                    <option value="feb-7">February 7th</option>
+                    <option value="feb-14">February 14th</option>
+                    <option value="feb-21">February 21st</option>
+                    <option value="feb-28">February 28th</option>
+                </select><br><br>
+				<label for="excitement_level">How Excited Are You For This Event?</label><br>
+				<input type="range" id="excitement_level" name="excitement_level" min="0" max="100" value="50">
+			</fieldset>
+		
+           
+			<fieldset><legend><b>Activities</b></legend>
+			 
+			 <label>Contests Attending:</label><br>
+                <input type="checkbox" id="costume_contest" name="activities" value="costume_contest">
+                <label for="costume_contest">Costume Contest</label><br>
+                <input type="checkbox" id="dance_contest" name="activities" value="dance_contest">
+                <label for="dance_contest">Dance Contest</label><br>
+                <input type="checkbox" id="musical_chairs" name="activities" value="musical_chairs">
+                <label for="musical_chairs">Musical Chairs</label><br>
+                <input type="checkbox" id="karaoke" name="activities" value="karaoke">
+                <label for="karaoke">Karaoke</label><br>
+                <input type="checkbox" id="finish_lyric" name="activities" value="finish_lyric">
+                <label for="finish_lyric">Finish That Lyric</label><br>
+                <input type="checkbox" id="name_tune" name="activities" value="name_tune">
+                <label for="name_tune">Name That Tune</label><br>
+                <input type="checkbox" id="freeze_dance" name="activities" value="freeze_dance">
+                <label for="freeze_dance">Freeze Dance</label><br><br>
+			
+			<label>What are you most excited for?:</label><br>
+                <input type="checkbox" id="food" name="additional_activities" value="food">
+                <label for="food">Food</label><br>
+                <input type="checkbox" id="costumes" name="additional_activities" value="costumes">
+                <label for="costumes">Costumes</label><br>
+                <input type="checkbox" id="photobooth" name="additional_activities" value="photobooth">
+                <label for="photobooth">Photobooth</label><br>
+                <input type="checkbox" id="free_goodies" name="additional_activities" value="free_goodies">
+                <label for="free_goodies">Free Goodies</label><br>
+                <input type="checkbox" id="meeting_people" name="additional_activities" value="meeting_people">
+                <label for="meeting_people">Meeting People</label><br>
+                <input type="checkbox" id="live_concert" name="additional_activities" value="live_concert">
+                <label for="live_concert">Live Concert</label><br>
+                <input type="checkbox" id="dj" name="additional_activities" value="dj">
+                <label for="dj">DJ</label><br>
+                <input type="checkbox" id="surprises" name="additional_activities" value="surprises">
+                <label for="surprises">Surprises!</label><br><br>
+				
+			<label>Vote for Your Preferred 70s Impersonator:</label><br>
+				<input type="radio" id="marvin_gaye" name="preferred_impersonator" value="marvin_gaye">
+				<label for="marvin_gaye">Marvin Gaye</label><br>
+				<input type="radio" id="rod_stewart" name="preferred_impersonator" value="rod_stewart">
+				<label for="rod_stewart">Rod Stewart</label><br>
+				<input type="radio" id="john_lennon" name="preferred_impersonator" value="john_lennon">
+				<label for="john_lennon">John Lennon</label><br>
+				<input type="radio" id="elvis_presley" name="preferred_impersonator" value="elvis_presley">
+				<label for="elvis_presley">Elvis Presley</label><br>
+				<input type="radio" id="the_beatles" name="preferred_impersonator" value="the_beatles">
+				<label for="the_beatles">The Beatles</label><br>
+				<input type="radio" id="elton_john" name="preferred_impersonator" value="elton_john">
+				<label for="elton_john">Elton John</label><br>
+				<input type="radio" id="queen" name="preferred_impersonator" value="queen">
+				<label for="queen">Queen</label><br>
+				<input type="radio" id="fleetwood_mac" name="preferred_impersonator" value="fleetwood_mac">
+				<label for="fleetwood_mac">Fleetwood Mac</label><br>
+				<input type="radio" id="rolling_stones" name="preferred_impersonator" value="rolling_stones">
+				<label for="rolling_stones">The Rolling Stones</label><br>
+				<input type="radio" id="ac_dc" name="preferred_impersonator" value="ac_dc">
+				<label for="ac_dc">AC/DC</label><br>
+				<input type="radio" id="led_zeppelin" name="preferred_impersonator" value="led_zeppelin">
+				<label for="led_zeppelin">Led Zeppelin</label><br>
+				<input type="radio" id="aerosmith" name="preferred_impersonator" value="aerosmith">
+				<label for="aerosmith">Aerosmith</label><br>
+				<input type="radio" id="jackson_5" name="preferred_impersonator" value="jackson_5">
+				<label for="jackson_5">Jackson 5</label><br>
+				<input type="radio" id="diana_ross" name="preferred_impersonator" value="diana_ross">
+				<label for="diana_ross">Diana Ross</label><br>
+				<input type="radio" id="lynyrd_skynyrd" name="preferred_impersonator" value="lynyrd_skynyrd">
+				<label for="lynyrd_skynyrd">Lynyrd Skynyrd</label><br><br>
+			
+			<!--Text for texbox form-->
+				<label for="submission_text">Submit your answer to be displayed at the event!:</label><br>
+				<textarea id="submission_text" name="submission_text" rows="4" cols="50" placeholder="Enter your favorite 70's movie, artist, song, or fashion!"></textarea><br>
+				<label for="category">Choose a Category:</label>
+				<select id="category" name="category">
+					<option value="movie">Favorite 70's Movie</option>
+					<option value="artist">Favorite 70's Artist</option>
+					<option value="song">Favorite 70's Song</option>
+					<option value="fashion">Favorite 70's Fashion</option>
+				</select><br><br>
+			
+            </fieldset>
+			
+			
+			<br><br>
+			
+            <input type="submit" value="Submit">
+            <input type="reset" value="Reset">
+			
+        </form>
+		
+    </section>
+	</main>
+ <footer>
+	&copy; <em>2024</em> Created by Monica Paultre. <a href="mailto:paulmj1@mail.broward.edu">paulmj1@mail.broward.edu</a>
+ </footer>
+	
+ </body>
+</html>

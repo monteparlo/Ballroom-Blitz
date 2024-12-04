@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang=en>
+	<head>
+		<!--meta information-->
+		<meta charset="UTF-8">
+		<meta name="Ballroom Blitz!" content="70s party for all ages.">
+		<!--this shows in the tab-->
+		<title>Ballroom Blitz!</title>
+		<link rel="stylesheet" href="stylesheets/mainstyle.css">
+		<style>
+			table, th, td {
+			border: 1px solid white;
+			}
+			table, td {
+			padding: 15px;
+			}
+</style>
+	</head>
+  <body>
+	<header>
+		<img src="assets/logoglow.png" alt="logo" width="973" height="383">
+		<h1><img src="assets/star2.png" alt="logo" width="60" height="60">FUN IN THE 70s!<img src="assets/star2.png" alt="logo" width="60" height="60"></h1>
+	</header>
+		<!--this the navigation-->
+		<nav>
+			<ul>
+			 <li><a href="mainpage.html">Home</a></li>
+			 <li><a href="calendarpage.html" class="active">Calendar</a></li>
+			 <li><a href="signup.html">Sign-Up</a></li>
+			</ul>
+		</nav>
+	<main>
+	<!--main text-->
+		<table>
+		<tr> 
+		<td rowspan="7"><img src="assets/candy.jpg" alt="calendar decoration" width="209" height="270"></td>
+		</tr>
+		<tr>
+			<th colspan="7"><img src="assets/star.png" alt="logo" width="200" height="10">February<img src="assets/star.png" alt="logo" width="200" height="10"></th>
+		</tr>
+		 <tr>
+			<th>Sunday</th>
+			<th>Monday</th>
+			<th>Tuesday</th>
+			<th>Wednesday</th>
+			<th>Thursday</th>
+			<th>Friday</th>
+			<th>Saturday</th>
+		 </tr>
+		 <tr>
+			<td>1</td>
+			<td>2</td>
+			<td>3</td>
+			<td>4</td>
+			<td>5</td>
+			<td>6</td>
+			<td><img src="assets/star.png" alt="logo" width="10" height="10"><a href="mainpage.html" target="_blank">First Event!</a> 7<img src="assets/star.png" alt="logo" width="10" height="10"></td>
+		 </tr>
+		 <tr>
+			<td>8</td>
+			<td>9</td>
+			<td>10</td>
+			<td>11</td>
+			<td>12</td>
+			<td>13</td>
+			<td><img src="assets/star.png" alt="logo" width="10" height="10">14<img src="assets/star.png" alt="logo" width="10" height="10"></td>
+		 </tr>
+		 <tr>
+			<td>15</td>
+			<td>16</td>
+			<td>17</td>
+			<td>18</td>
+			<td>19</td>
+			<td>20</td>
+			<td><img src="assets/star.png" alt="logo" width="10" height="10">21<img src="assets/star.png" alt="logo" width="10" height="10"></td>
+		 </tr>
+		 <tr>
+			<td>22</td>
+			<td>23</td>
+			<td>24</td>
+			<td>25</td>
+			<td>26</td>
+			<td>27</td>
+			<td><img src="assets/star.png" alt="logo" width="10" height="10"><a href="mainpage.html" target="_blank">Last Event!</a> 28<img src="assets/star.png" alt="logo" width="10" height="10"></td>
+		 </tr>
+		</table>
+	</main>
+	<br>
+ <footer>
+	&copy; <em>2024</em> Created by Monica Paultre. <a href="mailto:paulmj1@mail.broward.edu">paulmj1@mail.broward.edu</a>
+	</footer> 
+	
+ </body>
+</html>
